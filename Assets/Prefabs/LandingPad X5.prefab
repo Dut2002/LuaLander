@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8510484071476371621
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1182339870686680630, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_Size.x
+      value: 3.0386457
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182339870686680630, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606951450041084127, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_text
+      value: x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2643692844665039599, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116406345043014099, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4222171905243345107, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: scoreMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368002080364824710, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_Size.x
+      value: 2.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5368002080364824710, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_Size.y
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8979161115685316348, guid: 07a32bb75c27e374b954474281122bff, type: 3}
+      propertyPath: m_Name
+      value: LandingPad X5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07a32bb75c27e374b954474281122bff, type: 3}

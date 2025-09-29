@@ -1,0 +1,17 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Artifacts/
+*.csproj
+*.sln
+*.user
+*.unitypackage
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
