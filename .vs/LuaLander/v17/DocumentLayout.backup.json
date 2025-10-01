@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Projects\\Unity Dev\\LuaLander\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\landeraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\landeraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|E:\\Projects\\Unity Dev\\LuaLander\\assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|E:\\Projects\\Unity Dev\\LuaLander\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\projects\\unity dev\\lualander\\assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwC4AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LanderAudio.cs",
+              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\LanderAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LanderAudio.cs",
+              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\LanderAudio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LanderAudio.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA9wCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T08:25:39.398Z",
+              "WhenOpened": "2025-10-01T10:56:17.187Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lander.cs",
+              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\Lander.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lander.cs",
+              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\Lander.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lander.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAADwv8gAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T10:45:11.022Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SceneLoader.cs",
-              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\SceneLoader.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
-              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\SceneLoader.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
+              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T08:20:01.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainMenuUI.cs",
-              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\UI\\MainMenuUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenuUI.cs",
-              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\UI\\MainMenuUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenuUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T08:17:34.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T10:43:15.982Z"
             }
           ]
         }

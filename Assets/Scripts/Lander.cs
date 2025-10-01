@@ -14,6 +14,7 @@ public class Lander : MonoBehaviour
     public event EventHandler OnLeftForce;
     public event EventHandler OnBeforeForce;
     public event EventHandler OnCoinPickup;
+    public event EventHandler OnFuelPickup;
     public event EventHandler<OnLandedEventArgs> OnLanded;
     public class OnLandedEventArgs: EventArgs
     {
@@ -197,6 +198,7 @@ public class Lander : MonoBehaviour
     {
         if(collider2D.gameObject.TryGetComponent(out FuelPickup fuelPickup)){
             fuelAmount = Mathf.Min(fuelAmount + fuelPickup.GetFuelAmount(), fuelAmountMax);
+            OnFuelPickup?.Invoke(this, EventArgs.Empty);
             fuelPickup.DestroySelf();
         }
 

@@ -1,7 +1,6 @@
 using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LandedUI : MonoBehaviour
@@ -10,6 +9,7 @@ public class LandedUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI statsTextMesh;
     [SerializeField] private TextMeshProUGUI nextButtonTextMesh;
     [SerializeField] private Button nextButton;
+    [SerializeField] private Button gameOverButton;
     private Action NextButtonAction;
 
     private void Awake()
@@ -18,11 +18,16 @@ public class LandedUI : MonoBehaviour
         {
             NextButtonAction();
         });
+        gameOverButton.onClick.AddListener(() =>
+        {
+            GameManager.Instance.GoToGameOver();
+        });
     }
 
     private void Start()
     {
         Lander.Instance.OnLanded += Instance_OnLanded;
+
         Hide();
     }
 
@@ -52,6 +57,7 @@ public class LandedUI : MonoBehaviour
     private void Show()
     {
         gameObject.SetActive(true);
+        nextButton.Select();
     }
 
     private void Hide()
