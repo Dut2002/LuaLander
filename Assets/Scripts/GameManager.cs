@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
 
     private static int levelNumber = 1;
+    private static int totalScore = 0;
 
     public event EventHandler OnGamePaused;
     public event EventHandler OnGameUnPaused;
@@ -41,22 +42,26 @@ public class GameManager : MonoBehaviour
         PauseUnPauseGame();
     }
 
-
-
     private void LoadCurrentLevel()
+    {
+        GameLevel gameLevel = GetGameLevel();
+        GameLevel spawnedGameLevel = Instantiate(gameLevel, Vector3.zero, Quaternion.identity);
+        Lander.Instance.transform.position = spawnedGameLevel.GetLanderStartPosition();
+        cinemachineCamera.Target.TrackingTarget = gameLevel.GetCameraStartPositionTransform();
+        CinemachineCameraZoom2D.Instance.SetTargetOrthographicSize(spawnedGameLevel.GetZoomOutOthorgrahicSize());
+        return;
+    }
+
+    private GameLevel GetGameLevel()
     {
         foreach (var gameLevel in gameLevels)
         {
-            if(levelNumber == gameLevel.GetLevel())
+            if (levelNumber == gameLevel.GetLevel())
             {
-                GameLevel spawnedGameLevel = Instantiate(gameLevel, Vector3.zero, Quaternion.identity);
-                Lander.Instance.transform.position = spawnedGameLevel.GetLanderStartPosition();
-                cinemachineCamera.Target.TrackingTarget = gameLevel.GetCameraStartPositionTransform();
-                CinemachineCameraZoom2D.Instance.SetTargetOrthographicSize(spawnedGameLevel.GetZoomOutOthorgrahicSize());
-                return;
+                return gameLevel;
             }
         }
-        GoMainMenu();
+        return null;
     }
 
     private void Lander_OnStateChanged(object sender, Lander.OnStateChangedEventArgs e)
@@ -94,6 +99,7 @@ public class GameManager : MonoBehaviour
 
     public int GetLevelNumber() => levelNumber;
     public int GetScore() => score;
+    public int GetTotalScore() => totalScore;
     public float GetTime() => time;
 
     public void RetryLevel()
@@ -104,12 +110,24 @@ public class GameManager : MonoBehaviour
     public void GoToNextLevel()
     {
         levelNumber++;
-        SceneLoader.LoadScene(SceneLoader.Scene.GameScene);
+        totalScore += score;
+        if(GetGameLevel() == null)
+        {
+            GoToGameOver();
+        }
+        else
+        {
+            SceneLoader.LoadScene(SceneLoader.Scene.GameScene);
+        }
+    }
+
+    public void GoToGameOver()
+    {
+        SceneLoader.LoadScene(SceneLoader.Scene.GameOverScene);
     }
 
     public void GoMainMenu()
     {
-        levelNumber = 1;
         SceneLoader.LoadScene(SceneLoader.Scene.MainMenuScene);
     }
 
@@ -134,5 +152,11 @@ public class GameManager : MonoBehaviour
         {
             UnPauseGame();
         }
+    }
+
+    internal static void ResetStaticData()
+    {
+        levelNumber = 1;
+        totalScore = 0;
     }
 }
