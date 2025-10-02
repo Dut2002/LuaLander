@@ -104,6 +104,7 @@ public class GameManager : MonoBehaviour
 
     public void RetryLevel()
     {
+        Time.timeScale = 1.0f;
         SceneLoader.LoadScene(SceneLoader.Scene.GameScene);
     }
 
