@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "E:\\Projects\\Unity Dev\\LuaLander\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\ui\\pauseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pauseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\audio\\landeraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|E:\\Projects\\Unity Dev\\LuaLander\\assets\\scripts\\audio\\landeraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\landeraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\audio\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|E:\\Projects\\Unity Dev\\LuaLander\\assets\\scripts\\audio\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|e:\\projects\\unity dev\\lualander\\assets\\scripts\\audio\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|E:\\Projects\\Unity Dev\\LuaLander\\assets\\scripts\\audio\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B64FCB65-20D7-DA3F-F72A-CE481C344978}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audio\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAIA2wGoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T18:51:13.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PauseUI.cs",
               "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\UI\\PauseUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PauseUI.cs",
               "ToolTip": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\UI\\PauseUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\PauseUI.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwB0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T13:48:39.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LanderAudio.cs",
               "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\Audio\\LanderAudio.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\LanderAudio.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Audio\\LanderAudio.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T11:05:33.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T11:05:33.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\Audio\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\SoundManager.cs",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Audio\\SoundManager.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAkwCEAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T11:05:30.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T11:05:30.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "E:\\Projects\\Unity Dev\\LuaLander\\Assets\\Scripts\\Audio\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Audio\\MusicManager.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Audio\\MusicManager.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAIAwwAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T11:05:19.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T11:05:19.117Z"
             }
           ]
         }
